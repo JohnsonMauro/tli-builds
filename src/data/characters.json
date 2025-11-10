@@ -10,7 +10,31 @@
       {
         "name": "Creative Genius",
         "image": "/images/characters/Bing/CreativeGenius.webp",
-        "alias": "Bing 2"
+        "alias": "Bing 2",
+        "newHeroSeason": true,
+        "builds": {
+          "leveling": [
+            {
+              "author": "person 1",
+              "lastUpdated": "11/10/2025",
+              "buildName": "Season Start"
+            }
+          ],
+          "twinkLeveling": [
+            {
+              "author": "person 1",
+              "lastUpdated": "11/10/2025",
+              "buildName": "Twink Leveling"
+            }
+          ],
+          "endGame": [
+            {
+              "author": "person 1",
+              "lastUpdated": "11/10/2025",
+              "buildName": "Spell Burst"
+            }
+          ]
+        }
       }
     ]
   },

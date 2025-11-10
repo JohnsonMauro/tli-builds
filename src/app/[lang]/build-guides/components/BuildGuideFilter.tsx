@@ -1,21 +1,19 @@
 "use client";
 
-import { useState } from "react";
+export type BuildFilterState = {
+  leveling: boolean;
+  twinkLeveling: boolean;
+  endGame: boolean;
+};
 
-type FilterOption = "leveling" | "twink-leveling" | "endgame";
+interface BuildGuideFilterProps {
+  value: BuildFilterState;
+  onChange: (next: BuildFilterState) => void;
+}
 
-export function BuildGuideFilter() {
-  const [filters, setFilters] = useState<Record<FilterOption, boolean>>({
-    leveling: false,
-    "twink-leveling": false,
-    endgame: false,
-  });
-
-  const handleFilterChange = (option: FilterOption) => {
-    setFilters((prev) => ({
-      ...prev,
-      [option]: !prev[option],
-    }));
+export function BuildGuideFilter({ value, onChange }: BuildGuideFilterProps) {
+  const handleToggle = (key: keyof BuildFilterState) => {
+    onChange({ ...value, [key]: !value[key] });
   };
 
   return (
@@ -24,8 +22,8 @@ export function BuildGuideFilter() {
         <label className="flex items-center gap-2 cursor-pointer">
           <input
             type="checkbox"
-            checked={filters.leveling}
-            onChange={() => handleFilterChange("leveling")}
+            checked={value.leveling}
+            onChange={() => handleToggle("leveling")}
             className="w-4 h-4 rounded border-gray-300 text-primary focus:ring-2"
           />
           <span className="text-sm font-medium">Leveling</span>
@@ -34,8 +32,8 @@ export function BuildGuideFilter() {
         <label className="flex items-center gap-2 cursor-pointer">
           <input
             type="checkbox"
-            checked={filters["twink-leveling"]}
-            onChange={() => handleFilterChange("twink-leveling")}
+            checked={value.twinkLeveling}
+            onChange={() => handleToggle("twinkLeveling")}
             className="w-4 h-4 rounded border-gray-300 text-primary focus:ring-2"
           />
           <span className="text-sm font-medium">Twink Leveling</span>
@@ -44,8 +42,8 @@ export function BuildGuideFilter() {
         <label className="flex items-center gap-2 cursor-pointer">
           <input
             type="checkbox"
-            checked={filters.endgame}
-            onChange={() => handleFilterChange("endgame")}
+            checked={value.endGame}
+            onChange={() => handleToggle("endGame")}
             className="w-4 h-4 rounded border-gray-300 text-primary focus:ring-2"
           />
           <span className="text-sm font-medium">EndGame</span>

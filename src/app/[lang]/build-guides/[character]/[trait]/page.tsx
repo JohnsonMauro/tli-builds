@@ -3,7 +3,8 @@ import type { Locale } from "@/i18n";
 import charactersData from "@/data/characters.json";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { BuildGuideFilter } from "../../components/BuildGuideFilter";
+import Image from "next/image";
+import { BuildsList } from "../../components/BuildsList";
 
 export async function generateMetadata({
   params,
@@ -58,27 +59,39 @@ export default async function TraitPage({
       </div>
 
       <div className="mb-8">
-        <h1 className="text-3xl font-bold mb-2">
-          {traitData.name}
-          <span className="ml-3 text-2xl font-semibold text-muted-foreground">
-            ({traitData.alias})
-          </span>
-        </h1>
+        <div className="flex items-center gap-3">
+          <Image
+            src={traitData.image}
+            alt={`${characterData.name} - ${traitData.name}`}
+            width={56}
+            height={56}
+            className="rounded-md object-cover"
+            priority
+          />
+          <h1 className="text-3xl font-bold">
+            {traitData.name}
+            <span className="ml-3 text-2xl font-semibold text-muted-foreground">
+              ({traitData.alias})
+            </span>
+          </h1>
+        </div>
       </div>
 
-      <div className="mb-8">
-        <BuildGuideFilter />
-      </div>
+      {traitData.builds && (
+        <div className="mb-8">
+          <BuildsList builds={traitData.builds} />
+        </div>
+      )}
 
       <div className="space-y-6">
         <div className="p-6 border border-gray-200 dark:border-gray-700 rounded-lg">
           <h2 className="text-xl font-semibold mb-4">Build Guide Content</h2>
           <p className="text-muted-foreground">
-            Content for {characterData.name} - {traitData.name} will be added here.
+            Content for {characterData.name} - {traitData.name} will be added
+            here.
           </p>
         </div>
       </div>
     </section>
   );
 }
-

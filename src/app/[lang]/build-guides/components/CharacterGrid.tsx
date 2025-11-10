@@ -2,12 +2,13 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import type { Locale } from "@/i18n";
+import { t, type Locale } from "@/i18n";
 
 interface HeroTrait {
   name: string;
   image: string;
   alias: string;
+  newHeroSeason?: boolean;
 }
 
 interface Character {
@@ -48,6 +49,11 @@ export function CharacterGrid({ characters, locale }: CharacterGridProps) {
                     className="object-cover transition-opacity group-hover:opacity-80"
                     sizes="(max-width: 640px) 35vw, (max-width: 768px) 23vw, (max-width: 1024px) 17.5vw, 14vw"
                   />
+                  {trait.newHeroSeason && (
+                    <span className="absolute z-10 top-2 left-2 rounded-full bg-red-600 text-white text-[10px] font-semibold px-2 py-0.5 uppercase tracking-wide shadow">
+                      {t("badges.new", locale)}
+                    </span>
+                  )}
                   <div className="absolute inset-0 flex flex-col items-center justify-end bg-gradient-to-t from-black/70 to-transparent p-3">
                     <p className="text-sm font-bold text-white text-center leading-tight line-clamp-2">
                       {trait.name}

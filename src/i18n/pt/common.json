@@ -13,6 +13,14 @@
   "damageCalc": {
     "title": "Cálculo de Dano"
   },
+  "badges": {
+    "new": "Novo"
+  },
+  "builds": {
+    "by": "por",
+    "lastUpdated": "Última atualização:",
+    "none": "Nenhuma build disponível."
+  },
   "footer": {
     "madeWithLove": "Feito com ❤️"
   }

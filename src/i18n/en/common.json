@@ -13,6 +13,14 @@
   "damageCalc": {
     "title": "Damage Calculation"
   },
+  "badges": {
+    "new": "New"
+  },
+  "builds": {
+    "by": "by",
+    "lastUpdated": "Last updated:",
+    "none": "No builds available."
+  },
   "footer": {
     "madeWithLove": "Made with ❤️"
   }

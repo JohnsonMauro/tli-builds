@@ -13,6 +13,14 @@
   "damageCalc": {
     "title": "Расчет урона"
   },
+  "badges": {
+    "new": "Новое"
+  },
+  "builds": {
+    "by": "от",
+    "lastUpdated": "Последнее обновление:",
+    "none": "Нет доступных билдов."
+  },
   "footer": {
     "madeWithLove": "Сделано с ❤️"
   }
