@@ -1,0 +1,19 @@
+{
+  "header": {
+    "home": "Главная",
+    "buildGuides": "Гайды по билдам",
+    "damageCalculation": "Расчет урона"
+  },
+  "home": {
+    "welcome": "Добро пожаловать"
+  },
+  "buildGuides": {
+    "title": "Гайды по билдам"
+  },
+  "damageCalc": {
+    "title": "Расчет урона"
+  },
+  "footer": {
+    "madeWithLove": "Сделано с ❤️"
+  }
+}

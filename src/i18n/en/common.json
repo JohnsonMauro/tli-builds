@@ -1,0 +1,19 @@
+{
+  "header": {
+    "home": "Home",
+    "buildGuides": "Build Guides",
+    "damageCalculation": "Damage Calculation"
+  },
+  "home": {
+    "welcome": "Welcome"
+  },
+  "buildGuides": {
+    "title": "Build Guides"
+  },
+  "damageCalc": {
+    "title": "Damage Calculation"
+  },
+  "footer": {
+    "madeWithLove": "Made with ❤️"
+  }
+}

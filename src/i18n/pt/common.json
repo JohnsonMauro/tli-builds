@@ -1,0 +1,19 @@
+{
+  "header": {
+    "home": "Início",
+    "buildGuides": "Guias de Build",
+    "damageCalculation": "Cálculo de Dano"
+  },
+  "home": {
+    "welcome": "Bem-vindo"
+  },
+  "buildGuides": {
+    "title": "Guias de Build"
+  },
+  "damageCalc": {
+    "title": "Cálculo de Dano"
+  },
+  "footer": {
+    "madeWithLove": "Feito com ❤️"
+  }
+}

@@ -1,0 +1,177 @@
+[
+  {
+    "name": "Bing",
+    "heroTrait": [
+      {
+        "name": "Blast Nova",
+        "image": "/images/characters/Bing/BlastNova.webp",
+        "alias": "Bing 1"
+      },
+      {
+        "name": "Creative Genius",
+        "image": "/images/characters/Bing/CreativeGenius.webp",
+        "alias": "Bing 2"
+      }
+    ]
+  },
+  {
+    "name": "Carino",
+    "heroTrait": [
+      {
+        "name": "Ranger of Glory",
+        "image": "/images/characters/Carino/RangerOfGlory.webp",
+        "alias": "Carino 1"
+      },
+      {
+        "name": "Lethal Flash",
+        "image": "/images/characters/Carino/LethalFlash.webp",
+        "alias": "Carino 2"
+      },
+      {
+        "name": "Zealot of War",
+        "image": "/images/characters/Carino/ZealotOfWar.webp",
+        "alias": "Carino 3"
+      }
+    ]
+  },
+  {
+    "name": "Erika",
+    "heroTrait": [
+      {
+        "name": "Wind Stalker",
+        "image": "/images/characters/Erika/WindStalker.webp",
+        "alias": "Erika 1"
+      },
+      {
+        "name": "Lightning Shadow",
+        "image": "/images/characters/Erika/LightningShadow.webp",
+        "alias": "Erika 2"
+      }
+    ]
+  },
+  {
+    "name": "Gemma",
+    "heroTrait": [
+      {
+        "name": "Ice-Fire Fusion",
+        "image": "/images/characters/Gemma/IceFireFusion.webp",
+        "alias": "Gemma 1"
+      },
+      {
+        "name": "Frostbitten Heart",
+        "image": "/images/characters/Gemma/FrostbittenHeart.webp",
+        "alias": "Gemma 2"
+      },
+      {
+        "name": "Flame of Pleasure",
+        "image": "/images/characters/Gemma/FlameOfPleasure.webp",
+        "alias": "Gemma 3"
+      }
+    ]
+  },
+  {
+    "name": "Iris",
+    "heroTrait": [
+      {
+        "name": "Growing Breeze",
+        "image": "/images/characters/Iris/GrowingBreeze.webp",
+        "alias": "Iris 1"
+      },
+      {
+        "name": "Vigilant Breeze",
+        "image": "/images/characters/Iris/VigilantBreeze.webp",
+        "alias": "Iris 2"
+      }
+    ]
+  },
+  {
+    "name": "Moto",
+    "heroTrait": [
+      {
+        "name": "Order Calling",
+        "image": "/images/characters/Moto/OrderCalling.webp",
+        "alias": "Moto 1"
+      },
+      {
+        "name": "Charge Calling",
+        "image": "/images/characters/Moto/Charge Calling.webp",
+        "alias": "Moto 2"
+      }
+    ]
+  },
+  {
+    "name": "Rehan",
+    "heroTrait": [
+      {
+        "name": "Anger",
+        "image": "/images/characters/Rehan/Anger.webp",
+        "alias": "Rehan 1"
+      },
+      {
+        "name": "Seething Silhouette",
+        "image": "/images/characters/Rehan/SeethingSilhouette.webp",
+        "alias": "Rehan 2"
+      }
+    ]
+  },
+  {
+    "name": "Rosa",
+    "heroTrait": [
+      {
+        "name": "High Court Chariot",
+        "image": "/images/characters/Rosa/HighCourtChariot.webp",
+        "alias": "Rosa 1"
+      },
+      {
+        "name": "Unsullied Blade",
+        "image": "/images/characters/Rosa/UnsulliedBlade.webp",
+        "alias": "Rosa 2"
+      }
+    ]
+  },
+  {
+    "name": "Selena",
+    "heroTrait": [
+      {
+        "name": "Sing with the Tide",
+        "image": "/images/characters/Selena/SingWithTheTide.webp",
+        "alias": "Selena 1"
+      }
+    ]
+  },
+  {
+    "name": "Thea",
+    "heroTrait": [
+      {
+        "name": "Wisdom of The Gods",
+        "image": "/images/characters/Thea/WisdomOfTheGods.webp",
+        "alias": "Thea 1"
+      },
+      {
+        "name": "Incarnation of the Gods",
+        "image": "/images/characters/Thea/IncarnationOfTheGods.webp",
+        "alias": "Thea 2"
+      },
+      {
+        "name": "Blasphemer",
+        "image": "/images/characters/Thea/Blasphemer.webp",
+        "alias": "Thea 3"
+      }
+    ]
+  },
+  {
+    "name": "Youga",
+    "heroTrait": [
+      {
+        "name": "Spacetime Illusion",
+        "image": "/images/characters/Youga/SpacetimeIllusion.webp",
+        "alias": "Youga 1"
+      },
+      {
+        "name": "Spacetime Elapse",
+        "image": "/images/characters/Youga/SpacetimeElapse.webp",
+        "alias": "Youga 2"
+      }
+    ]
+  }
+]
