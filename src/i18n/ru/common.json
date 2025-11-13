@@ -19,9 +19,33 @@
   "builds": {
     "by": "от",
     "lastUpdated": "Последнее обновление:",
-    "none": "Нет доступных билдов."
+    "none": "Нет доступных билдов.",
+    "sections": {
+      "introduction": "Введение",
+      "mule": "Mule",
+      "equipment": "Экипировка",
+      "skillTree": "Дерево навыков"
+    },
+    "toc": {
+      "title": "Навигация"
+    },
+    "mule": {
+      "content": "1. Первоначальная подготовка\n\nПри создании нового персонажа рекомендуется заранее положить в сундук (stash) предметы с хорошим запасом Энергии.\nЭти предметы позволяют экипировать основные умения и поддержки сразу после их открытия, что дает возможность начать игру с основным умением, связанным до пяти поддержек, а также с умениями баффов и перемещения.\n\n2. Передача умений и поддержек\n\nУмения и поддержки можно повторно использовать на новых персонажах.\nКупленное умение/поддержка обычно имеет высокий уровень, но вы можете сбросить его до 1 уровня и передать другому персонажу через инвентарь персонажа-покупателя.\n\nШаги передачи:\n\nОткройте инвентарь персонажа, у которого есть это умение/поддержка.\n\nСбросьте уровень умения до 1.\n\nПереместите умение/поддержку в сундук (stash).\n\nОткройте сундук новым персонажем и экипируйте умение.\n\n3. Доступ к сундуку через список друзей\n\nС самого начала игры можно получить доступ к сундуку через список друзей:\n\nНажмите Enter, чтобы открыть чат.\n\nНажмите на друга, который находится онлайн.\n\nВыберите опцию Gift.\n\nНажмите значок сундука, расположенный в правом нижнем углу окна.\n\nЭтот способ позволяет новому персонажу получать предметы и умения из хранения даже на ранних этапах прогресса."
+    },
+    "lorem": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.",
+    "loremLong": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.\n\nSed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris.\n\nFusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.\n\nClass aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.\n\nCurabitur sodales ligula in libero. Sed dignissim lacinia nunc.\n\nCurabitur tortor. Pellentesque nibh. Aenean quam.\n\nIn scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem.\n\nProin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa.\n\nFusce ac turpis quis ligula lacinia aliquet. Mauris ipsum.\n\nNulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh.\n\nQuisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra.\n\nNam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis.\n\nNulla facilisi. Ut fringilla. Suspendisse potenti.\n\nNunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam.\n\nEtiam ultrices. Suspendisse in justo eu magna luctus suscipit.\n\nSed lectus. Integer euismod lacus luctus magna.\n\nQuisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam.\n\nVestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi lacinia molestie dui.\n\nPraesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum.\n\nMorbi in ipsum sit amet pede facilisis laoreet. Donec lacus nunc, viverra nec.\n\nPraesent congue erat at massa. Sed cursus turpis vitae tortor. Donec posuere vulputate arcu.\n\nPhasellus accumsan cursus velit. Vestibulum ante ipsum primis in faucibus.\n\nNam at tortor in tellus interdum sagittis. In hac habitasse platea dictumst.\n\nVivamus laoreet. Nullam tincidunt adipiscing enim. Phasellus tempus.\n\nProin viverra, ligula sit amet ultrices semper, ligula arcu tristique sapien, a accumsan nisi mauris ac eros.\n\nMauris sollicitudin fermentum libero. Praesent nonummy mi in odio.\n\nNunc interdum lacus sit amet orci. Vestibulum rutrum, mi nec elementum vehicula, eros quam gravida nisl, id fringilla neque ante vel mi.\n\nAliquam erat volutpat. In congue. Etiam justo.\n\nEtiam feugiat lorem non metus. Vestibulum dapibus nunc ac augue.\n\nCras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices."
   },
   "footer": {
     "madeWithLove": "Сделано с ❤️"
+  },
+  "gear": {
+    "popover": {
+      "season": "Сезон",
+      "reqLv": "Require lv",
+      "requiredLevel": "Требуемый уровень",
+      "implicit": "Имплисит",
+      "mods": "Модификаторы",
+      "flavor": "Описание"
+    }
   }
 }

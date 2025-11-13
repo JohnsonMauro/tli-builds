@@ -1,0 +1,17 @@
+[
+  {
+    "season": "SS10",
+    "name": "Phantasm",
+    "requireLevel": 10,
+    "implicit": "+1091 gear Evasion",
+    "mods": [
+      "+(120–320) gear Evasion",
+      "+55 Max Life",
+      "When moving, triggers a Lv. 20 Split Shot every 0.6s",
+      "+15% Projectile Speed",
+      "Enlarges Physique by (10–15)%"
+    ],
+    "label": "Everything goes smoothly at death's door."
+  }
+]
+

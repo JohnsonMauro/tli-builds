@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Noto_Sans, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/modules/common/ui/Header";
 import { Footer } from "@/modules/common/ui/Footer";
 import { LangSetter } from "@/modules/common/ui/LangSetter";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
+const notoSans = Noto_Sans({
+  variable: "--font-noto-sans",
+  subsets: ["latin", "latin-ext", "cyrillic"],
 });
 
 const geistMono = Geist_Mono({
@@ -28,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}
+        className={`${notoSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}
       >
         <LangSetter />
         <Header />

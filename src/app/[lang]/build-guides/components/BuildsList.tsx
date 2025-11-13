@@ -1,6 +1,8 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { BuildGuideFilter, type BuildFilterState } from "./BuildGuideFilter";
 import { useI18nClient } from "@/i18n/client";
 
@@ -27,6 +29,7 @@ export function BuildsList({ builds }: BuildsListProps) {
     endGame: false,
   });
   const { t, locale } = useI18nClient();
+  const pathname = usePathname();
 
   function parseDateByLocale(input: string, loc: string): Date | null {
     // Expecting dd/MM/yyyy for pt, ru; mm/dd/yyyy for en
@@ -104,8 +107,15 @@ export function BuildsList({ builds }: BuildsListProps) {
                 {items.map((b, idx) => (
                   <li
                     key={`${b.buildName}-${idx}`}
-                    className="p-4 rounded-lg border border-gray-200 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-800/50 transition"
+                    className="relative p-4 rounded-lg border border-gray-200 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-800/50 transition"
                   >
+                    {key === "twinkLeveling" && (
+                      <Link
+                        href={`${pathname}/twink-leveling`}
+                        className="absolute inset-0 z-[1]"
+                        aria-label={b.buildName}
+                      />
+                    )}
                     <div className="flex items-center justify-between gap-2">
                       <div className="font-bold truncate text-[1.35rem]">
                         {b.buildName}
