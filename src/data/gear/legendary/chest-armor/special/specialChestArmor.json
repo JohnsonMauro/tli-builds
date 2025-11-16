@@ -1,0 +1,16 @@
+[
+  {
+    "image": "public/images/gear/legendary/chest-armor/special/omniscient-prototype.webp",
+    "implicit": "+10 gear Energy Shield",
+    "label": "This is the first-generation body the people of Divine Legacy crafted to carry the vast spirit. It is not perfect but was the first to be brave enough to bear the abundance of the gods.",
+    "mods": [
+      "+(1–10) Gear Armor",
+      "+1 Max Life",
+      "+1 Max Mana",
+      "Almighty"
+    ],
+    "name": "Omniscient Prototype",
+    "requireLevel": 1,
+    "season": "SS10"
+  }
+]

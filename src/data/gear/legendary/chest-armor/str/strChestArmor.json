@@ -13,5 +13,18 @@
     "name": "Phantasm",
     "requireLevel": 10,
     "season": "SS10"
+  },
+  {
+    "image": "public/images/gear/legendary/chest-armor/dex/omniscient-prototype.webp",
+    "implicit": "+1000 gear Evasion",
+    "label": "Knowledge is power.",
+    "mods": [
+      "+(100–300) gear Evasion",
+      "+50 Max Life",
+      "+10% Movement Speed"
+    ],
+    "name": "Omniscient Prototype",
+    "requireLevel": 15,
+    "season": "SS10"
   }
 ]

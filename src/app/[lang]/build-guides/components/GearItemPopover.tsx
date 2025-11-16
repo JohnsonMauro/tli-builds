@@ -6,6 +6,7 @@ import { createPortal } from "react-dom";
 import { t, type Locale } from "@/i18n";
 
 export type GearItem = {
+  image?: string;
   season: string;
   name: string;
   requireLevel: number;
@@ -136,8 +137,9 @@ export default function GearItemPopover({
               left: coords.left,
               transform: side === "left" ? "translateX(-100%)" : "none",
               zIndex: 9999,
+              width: "400px",
             }}
-            className="min-w-64 rounded-md border border-muted/30 bg-background text-foreground shadow-lg p-2 text-center relative"
+            className="rounded-md border border-muted/30 bg-background text-foreground shadow-lg p-2 text-center relative"
           >
             <span className="absolute right-2 top-2 text-[10px] rounded-full bg-muted/30 px-2 py-0.5 uppercase tracking-wide">
               {item.season}
@@ -155,13 +157,17 @@ export default function GearItemPopover({
               </div>
               {item.implicit && <div className="mt-1">{item.implicit}</div>}
               {item.mods && item.mods.length > 0 && (
-                <div className="mt-2 text-left">
-                  <ul className="mt-1 list-disc pl-4 space-y-1">
-                    {item.mods.map((m, idx) => (
-                      <li key={`mod-${idx}`}>{m}</li>
-                    ))}
-                  </ul>
-                </div>
+                <>
+                  <div className="mt-2 border-t border-muted/30" />
+                  <div className="mt-2 text-left">
+                    <ul className="mt-1 list-disc pl-4 space-y-1">
+                      {item.mods.map((m, idx) => (
+                        <li key={`mod-${idx}`}>{m}</li>
+                      ))}
+                    </ul>
+                  </div>
+                  <div className="mt-2 border-b border-muted/30" />
+                </>
               )}
               {item.label && <div className="mt-2 italic">{item.label}</div>}
             </div>

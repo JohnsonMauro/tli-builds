@@ -1,0 +1,18 @@
+[
+  {
+    "image": "public/images/gear/legendary/boots/int/grace.webp",
+    "implicit": "+35 gear Energy Shield",
+    "label": "Even a butterfly can fly across the sea.",
+    "mods": [
+      "+(130–180) gear Energy Shield",
+      "+10% Movement Speed",
+      "+(12–18) Intelligence",
+      "+(5–11)% Cold Resistance",
+      "+(15–20)% Movement Speed when Focus Blessing reaches max stacks",
+      "+20% chance for Non-Critical Strikes to grant 1 stack of Focus Blessing"
+    ],
+    "name": "Grace Boots",
+    "requireLevel": 16,
+    "season": "SS10"
+  }
+]
