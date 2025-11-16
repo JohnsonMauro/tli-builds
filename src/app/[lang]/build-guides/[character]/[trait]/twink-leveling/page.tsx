@@ -9,7 +9,7 @@ import Image from "next/image";
 import SectionToc from "@/app/[lang]/build-guides/components/SectionToc";
 import AccordionSection from "@/app/[lang]/build-guides/components/AccordionSection";
 import KeywordText from "@/app/[lang]/build-guides/components/KeywordText";
-import EquipmentGrid from "@/app/[lang]/build-guides/components/EquipmentGrid";
+import EquipmentSection from "@/app/[lang]/build-guides/components/EquipmentSection";
 import type { ReactNode } from "react";
 
 function parseDateByLocale(input: string, loc: string): Date | null {
@@ -279,7 +279,7 @@ export default async function TwinkLevelingPage({
             title={t("builds.sections.equipment", lang)}
             index={3}
           >
-            <EquipmentGrid lang={lang} />
+            <EquipmentSection lang={lang} />
           </AccordionSection>
           <AccordionSection
             id="skill-tree"
